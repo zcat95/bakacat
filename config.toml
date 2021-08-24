@@ -11,6 +11,9 @@ enableEmoji            = true
   description = "Hugo + Bear = :heart:"
   favicon = "images/favicon.svg"
   title = "Bear ʕ•ᴥ•ʔ"
+  twitter_username = "bakacatuwu"
+  search_engine = true
+  google_analytics_id = "G-V793L9MRTH"
 
 [indexes]
   category = "category"
