@@ -1,17 +1,11 @@
 languageCode = "zh-cn"
-contentdir = "content"
-publishdir = "public"
-builddrafts = false
-baseUrl = "https://bakacat.netlify.app/"
-canonifyurls = true
-title = "BakaCat"
-author = "BakaCat"
-theme = "pixyll"
-
+baseUrl = 'https://bakacat.netlify.app/'
+title = 'BakaCat'
+author = 'BakaCat'
+theme = 'hugo-bearblog'
+copyright = "Copyright © 2021, BakaCat"
+enableRobotsTXT = true
 [params]
-  twitter_username = 'bakacatuwu'
-
-[[menu.main]]
-    identifier = "about"
-    name = "关于"
-    url = "/about/"
+  description = "Hugo + Bear = :heart:"
+  favicon = "images/favicon.png"
+  title = "Hugo ʕ•ᴥ•ʔ Bear"
