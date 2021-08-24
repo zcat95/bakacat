@@ -6,19 +6,12 @@ theme                  = 'hugo-bearblog'
 copyright              = "Copyright © 2021, BakaCat"
 enableRobotsTXT        = true
 enableEmoji            = true
-layoutDir              = "layouts"
-publishDir             = "public"
-buildDrafts            = false
-relativeURLs           = true
-canonifyUrls           = true
-contentDir             = "content"
-archetypeDir           = "archetypes"
 
 [params]
   description = "Hugo + Bear = :heart:"
-  favicon = "images/favicon.png"
+  favicon = "images/favicon.svg"
   title = "Hugo ʕ•ᴥ•ʔ Bear"
 
 [indexes]
-  category = "分类"
-  tag = "标签"
+  category = "category"
+  tag = "tag"
