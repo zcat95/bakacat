@@ -1,0 +1,8 @@
+baseURL = 'http://example.org/'
+languageCode = 'zh-cn'
+title = 'Baka Cat'
+theme = 'pixyll'
+
+[params]
+  twitter_username = 'bakacatuwu'
+
