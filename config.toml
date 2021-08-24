@@ -10,3 +10,8 @@ theme = "pixyll"
 
 [params]
   twitter_username = 'bakacatuwu'
+
+[[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
