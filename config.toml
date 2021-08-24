@@ -1,8 +1,12 @@
-baseURL = 'http://example.org/'
-languageCode = 'zh-cn'
-title = 'Baka Cat'
-theme = 'pixyll'
+languageCode = "zh-cn"
+contentdir = "content"
+publishdir = "public"
+builddrafts = false
+baseUrl = "https://bakacat.netlify.app/"
+canonifyurls = true
+title = "BakaCat"
+author = "BakaCat"
+theme = "pixyll"
 
 [params]
   twitter_username = 'bakacatuwu'
-
