@@ -21,7 +21,31 @@ enableEmoji            = true
 [menu]
 
   [[menu.main]]
-    identifier = "about me"
-    name = "about me"
-    url = "/about/"
+    identifier = "home"
+    name = "主页"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "sex"
+    name = "黄色废料"
+    url = "/sex/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "一些闲话"
+    url = "/blog/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "useful"
+    name = "有用的"
+    url = "/useful/"
     weight = 40
+
+  [[menu.main]]
+    identifier = "about me"
+    name = "关于我！"
+    url = "/about/"
+    weight = 50
