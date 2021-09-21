@@ -1,5 +1,5 @@
 +++
-title = "Openwrt 打开网页提示 [bad argument] "
+title = "Openwrt 打开网页提示 [bad argument]"
 date = "2021-09-21T13:27:03+08:00"
 
 #
@@ -10,7 +10,5 @@ date = "2021-09-21T13:27:03+08:00"
 tags = []
 +++
 
-usw this to fix
-
-rm -r /tmp/luci-indexcache
+usw this to fix rm *-r /tmp/luci-indexcache
 
