@@ -1,3 +1,7 @@
++++
+menu = "主页"
++++
+
 # 欢迎来到笨蛋猫猫的小窝✨
 
 [性癖说明](https://bakacat.netlify.app/blog/about/)

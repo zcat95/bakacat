@@ -33,6 +33,7 @@ enableEmoji            = true
     weight = 30
 
   [[menu.main]]
+    identifier = "useful"
     name = "有用的"
     url = "/useful/"
     weight = 40
