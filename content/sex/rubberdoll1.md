@@ -1,13 +1,6 @@
 +++
 title = "乳胶便器玩偶"
 date = "2021-08-24T12:37:25+08:00"
-
-#
-# description is optional
-#
-# description = "An optional description for SEO. If not provided, an automatically created summary will be used."
-
-tags = []
 +++
 
 * 产品会被强制固定在一个机器上，温暖的乳胶液体从下到上缓缓的覆盖住她的全身，把她变成一个乳胶娃娃，小穴和乳头的形状也会变得更明显，这时乳胶内壁生长出密密麻麻的小触手，刺激并折磨着她的敏感部位乃至整个身体，机器下面甚至还有会不停运作的柔软毛刷在小穴处旋转给予额外的刺激，乳头会被真空机械触手紧紧吸住拉扯旋转....

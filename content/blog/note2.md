@@ -1,13 +1,6 @@
 +++
 title = "Note2"
 date = "2021-08-24T13:28:14+08:00"
-
-#
-# description is optional
-#
-# description = "An optional description for SEO. If not provided, an automatically created summary will be used."
-
-tags = []
 +++
 
 父母教给我的第三件事是，人应该与人为善。
