@@ -17,3 +17,11 @@ enableEmoji            = true
 [indexes]
   category = "category"
   tag = "tag"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about me"
+    name = "about me"
+    url = "/about/"
+    weight = 40
