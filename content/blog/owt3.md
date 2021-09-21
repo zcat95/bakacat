@@ -56,18 +56,18 @@ title = "Openwrt 带离线下载功能的私有云搭建"
 
    ```
    docker run -d \
-   >   --name cloudreve \
-   >   -e PUID=$UID \
-   >   -e PGID=$GID \
-   >   -e TZ="Asia/Shanghai" \   #时区
-   >   -p 5212:5212 \   #端口
-   >   --restart=unless-stopped \
-   >   -v /mnt/xxx:/cloudreve/uploads \   #文件存储路径为你的硬盘
-   >   -v ~/cloudreve/conf.ini:/cloudreve/conf.ini \   #配置文件
-   >   -v ~/cloudreve/cloudreve.db:/cloudreve/cloudreve.db \   #数据库文件
-   >   -v ~/cloudreve/avatar:/cloudreve/avatar \   #头像路径
-   >   -v /mnt/xxx/aria2-downloads:/downloads \   #aria2下载临时路径
-   >   xavierniu/cloudreve
+       --name cloudreve \
+       -e PUID=$UID \
+       -e PGID=$GID \
+       -e TZ="Asia/Shanghai" \   #时区
+       -p 5212:5212 \   #端口
+       --restart=unless-stopped \
+       -v /mnt/xxx:/cloudreve/uploads \   #文件存储路径为你的硬盘
+       -v ~/cloudreve/conf.ini:/cloudreve/conf.ini \   #配置文件
+       -v ~/cloudreve/cloudreve.db:/cloudreve/cloudreve.db \   #数据库文件
+       -v ~/cloudreve/avatar:/cloudreve/avatar \   #头像路径
+       -v /mnt/xxx/aria2-downloads:/downloads \   #aria2下载临时路径
+       xavierniu/cloudreve
    ```
 
 4. 获取密码
