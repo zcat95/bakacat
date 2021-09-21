@@ -42,4 +42,3 @@ enableEmoji            = true
     identifier = "about me"
     name = "关于我！"
     url = "/about/"
-    weight = 60
