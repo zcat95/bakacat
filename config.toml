@@ -21,12 +21,6 @@ enableEmoji            = true
 [menu]
 
   [[menu.main]]
-    identifier = "home"
-    name = "主页"
-    url = "/"
-    weight = 10
-
-  [[menu.main]]
     identifier = "sex"
     name = "黄色废料"
     url = "/sex/"
@@ -48,4 +42,4 @@ enableEmoji            = true
     identifier = "about me"
     name = "关于我！"
     url = "/about/"
-    weight = 50
+    weight = 60
