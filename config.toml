@@ -13,7 +13,6 @@ enableEmoji            = true
   title = "Bear ʕ•ᴥ•ʔ"
   twitter_username = "bakacatuwu"
   search_engine = true
-  googleAnalytics        = G-V793L9MRTH
 
 [indexes]
   category = "category"
