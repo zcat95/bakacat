@@ -1,6 +1,6 @@
 languageCode           = "zh-cn"
 baseUrl                = 'https://bakacat.netlify.app/'
-title                  = '✨ 欢迎来到笨蛋猫猫的小窝 ✨'
+title                  = '(☆-ｖ-) BakaCat'
 author                 = 'BakaCat'
 theme                  = 'hugo-bearblog'
 copyright              = "Copyright © 2021, BakaCat"
