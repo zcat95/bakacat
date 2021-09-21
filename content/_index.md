@@ -1,6 +1,4 @@
 
-------
-
 [性癖说明🎀](https://bakacat.netlify.app/about/)
 
 [Twitter🐳](https://twitter.com/bakacatuwu/) 
