@@ -39,7 +39,6 @@ enableEmoji            = true
     weight = 40
 
   [[menu.main]]
-    identifier = "about me"
     name = "关于我！"
     url = "/about/"
-    weight = -40
+    weight = 40
