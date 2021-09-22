@@ -12,12 +12,12 @@ googleAnalytics: G-V793L9MRTH
 DefaultContentLanguage: zh-cn
 
 permalinks:
-    post: /sex/:slug/
+    post: /p/:slug/
     page: /:slug/
 
 params:
     mainSections:
-        - sex
+        - post
     featuredImageField: image
     rssFullContent: true
     favicon: img/favicon.ico
