@@ -32,7 +32,7 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: 💗 请把我只留在你的幻想里 💗
+        subtitle: 
         avatar:
             enabled: true
             local: true
@@ -186,7 +186,7 @@ menu:
     main:
         - identifier: useful
           name: 有用的🌌
-          url: /useful
+          url: /
           weight: 40
           pre: home
           params:
