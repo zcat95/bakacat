@@ -1,6 +1,7 @@
 ---
 title: 🎀 猫猫的性癖自述 🎀
 date: '2021-01-01'
+slug: about
 aliases:
   - about-us
   - about-hugo
