@@ -191,14 +191,6 @@ menu:
           pre: home
           params:
               newTab: false
-    main:
-        - identifier: about
-          name: 关于我🖐🏻
-          url: /about
-          weight: 50
-          pre: user
-          params:
-              newTab: false
 
 related:
     includeNewer: true
