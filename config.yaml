@@ -170,7 +170,7 @@ menu:
         - identifier: sex
           name: 黄色废料🧸
           url: /sex
-          weight: 10
+          weight: -90
           pre: home
           params:
               newTab: false
@@ -178,7 +178,7 @@ menu:
         - identifier: blog
           name: 一些闲话🌠
           url: /blog
-          weight: 20
+          weight: -80
           pre: home
           params:
               newTab: false
@@ -186,8 +186,16 @@ menu:
         - identifier: useful
           name: 有用的🌌
           url: /useful
-          weight: 30
+          weight: -70
           pre: home
+          params:
+              newTab: false
+    main:
+        - identifier: about
+          name: 关于我🖐🏻
+          url: /about
+          weight: -60
+          pre: user
           params:
               newTab: false
 
