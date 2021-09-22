@@ -136,7 +136,7 @@ params:
             card: summary_large_image
 
     defaultImage: img/1.jpg
-        opengraph: img/1.jpg
+        opengraph: 
             enabled: true
             local: true
             src: img/1.jpg
