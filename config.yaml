@@ -1,7 +1,7 @@
-baseurl: https:https://bakacat.netlify.app/
+baseurl: https: /
 languageCode: zh-cn
 theme: stack
-paginate: 7
+paginate: 5
 title: ✨ Bakacat ✨
 
 # GA Tracking ID
