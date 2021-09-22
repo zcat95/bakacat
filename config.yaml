@@ -14,6 +14,7 @@ DefaultContentLanguage: zh-cn
 permalinks:
     post: /p/:slug/
     page: /:slug/
+    sex: /sex/:slug/
 
 params:
     mainSections:
@@ -162,7 +163,7 @@ menu:
         - identifier: sex
           name: 黄色废料🧸
           url: /sex
-          weight: 90
+          weight: -90
           pre: home
           params:
               newTab: false
@@ -170,7 +171,7 @@ menu:
         - identifier: blog
           name: 一些闲话🌠
           url: /blog
-          weight: 100
+          weight: -100
           pre: home
           params:
               newTab: false
