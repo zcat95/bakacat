@@ -180,7 +180,6 @@ menu:
           name: 黄色废料🧸
           url: /sex
           weight: 120
-          pre: home
           params:
               newTab: false
 
