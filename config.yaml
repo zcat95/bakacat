@@ -135,11 +135,11 @@ params:
             # Available values: summary, summary_large_image
             card: summary_large_image
 
-    defaultImage: 1.jpg
-        opengraph: 1.jpg
-            enabled: true
-            local: true
-            src: 1.jpg
+    defaultImage: 
+        opengraph: 
+            enabled: false
+            local: false
+            src: 
 
     colorScheme:
         # Display toggle
