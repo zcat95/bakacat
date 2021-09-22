@@ -2,7 +2,7 @@ baseurl: https:https://bakacat.netlify.app/
 languageCode: zh-cn
 theme: stack
 paginate: 5
-title: ✨ 欢迎来到笨蛋猫猫的小窝 ✨
+title: ✨ Bakacat ✨
 
 # GA Tracking ID
 googleAnalytics: G-V793L9MRTH
@@ -32,7 +32,7 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: 💗 请你把我只留在你的幻想世界里 💗
+        subtitle: 💗 请把我只留在你的幻想里 💗
         avatar:
             enabled: true
             local: true
@@ -162,7 +162,7 @@ menu:
         - identifier: home
           name: Home
           url: /
-          weight: -100
+          weight: 10
           pre: home
           params:
               ### For demonstration purpose, the home link will be open in a new tab
@@ -171,7 +171,7 @@ menu:
         - identifier: sex
           name: 黄色废料🧸
           url: /sex
-          weight: 10
+          weight: 20
           pre: home
           params:
               newTab: false
@@ -179,7 +179,7 @@ menu:
         - identifier: blog
           name: 一些闲话🌠
           url: /blog
-          weight: 20
+          weight: 30
           pre: home
           params:
               newTab: false
@@ -187,7 +187,7 @@ menu:
         - identifier: useful
           name: 有用的🌌
           url: /useful
-          weight: 30
+          weight: 40
           pre: home
           params:
               newTab: false
@@ -195,7 +195,7 @@ menu:
         - identifier: about
           name: 关于我🖐🏻
           url: /about
-          weight: 40
+          weight: 50
           pre: user
           params:
               newTab: false
