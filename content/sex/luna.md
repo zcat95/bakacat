@@ -1,7 +1,13 @@
-+++
-title = "Luna."
-date = "2021-09-20T16:42:18+04:00"
-+++
+---
+title: Chinese Test
+date: 2021-09-20
+slug: luna
+categories:
+    - 黄色废料🧸
+tags:
+    - 幻想
+    - 伪娘
+---
 
 ## Luna.
 

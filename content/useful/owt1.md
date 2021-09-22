@@ -1,7 +1,13 @@
-+++
-title = "Openwrt 错误 bad argument"
-date = "2021-09-18T16:42:18+04:00"
-+++
+---
+title: Openwrt 错误 bad argument
+date: 2021-09-18
+slug: owt1
+categories:
+    - 有用的🌌
+tags:
+    - openwrt
+    - 错误
+---
 
 ## Openwrt 错误 bad argument
 
