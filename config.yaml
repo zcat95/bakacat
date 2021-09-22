@@ -160,12 +160,13 @@ params:
 menu:
     main:
         - identifier: home
-          name: 主页
+          name: Home
           url: /
           weight: -100
           pre: home
           params:
-              newTab: false
+              ### For demonstration purpose, the home link will be open in a new tab
+              newTab: true
     main:
         - identifier: sex
           name: 黄色废料🧸
