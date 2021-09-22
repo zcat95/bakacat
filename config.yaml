@@ -5,7 +5,7 @@ paginate: 5
 title: ✨ 欢迎来到笨蛋猫猫的小窝 ✨
 
 # GA Tracking ID
-googleAnalytics:G-V793L9MRTH
+googleAnalytics: G-V793L9MRTH
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, es, de, nl, it
