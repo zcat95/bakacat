@@ -160,14 +160,6 @@ params:
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
     main:
-        - identifier: sex
-          name: 黄色废料🧸
-          url: /sex
-          weight: -90
-          pre: home
-          params:
-              newTab: false
-    main:
         - identifier: blog
           name: 一些闲话🌠
           url: /blog
@@ -180,6 +172,14 @@ menu:
           name: 主页
           url: /
           weight: 40
+          pre: home
+          params:
+              newTab: false
+    main:
+        - identifier: sex
+          name: 黄色废料🧸
+          url: /sex
+          weight: 120
           pre: home
           params:
               newTab: false
