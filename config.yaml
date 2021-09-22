@@ -14,9 +14,6 @@ DefaultContentLanguage: zh-cn
 permalinks:
     post: /p/:slug/
     page: /:slug/
-    sex: /s/:slug/
-    useful: /u/:slug/
-    blog: /b/:slug
 
 params:
     mainSections:
@@ -138,11 +135,11 @@ params:
             # Available values: summary, summary_large_image
             card: summary_large_image
 
-    defaultImage: 
-        opengraph: 
-            enabled: false
-            local: false
-            src: 
+    defaultImage: img/1.jpg
+        opengraph: img/1.jpg
+            enabled: true
+            local: true
+            src: img/1.jpg
 
     colorScheme:
         # Display toggle
@@ -169,30 +166,6 @@ menu:
           pre: home
           params:
               newTab: false
-    main:
-        - identifier: sex
-          name: 黄色废料🧸
-          url: /s
-          weight: 120
-          pre: home
-          params:
-              newTab: false
-    main:
-        - identifier: blog
-          name: 一些闲话🌠
-          url: /b
-          weight: 130
-          pre: home
-          params:
-              newTab: false
-    main:
-        - identifier: useful
-          name: 有用的🌌
-          url: /u
-          weight: 130
-          pre: home
-          params:
-              newTab: false
 
 related:
     includeNewer: true
@@ -211,7 +184,7 @@ markup:
             ## Set to true if you have HTML content inside Markdown
             unsafe: false
     tableOfContents:
-        endLevel: 8
+        endLevel: 4
         ordered: true
         startLevel: 2
     highlight:
