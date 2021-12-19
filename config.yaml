@@ -1,8 +1,8 @@
-baseurl: https://bakacat.netlify.app
+baseurl: https://zcat.netlify.app
 languageCode: zh-cn
 theme: stack
 paginate: 5
-title: ✨ Bakacat ✨
+title: ✨ ZCat ✨
 
 # GA Tracking ID
 googleAnalytics: G-V793L9MRTH
@@ -36,7 +36,7 @@ params:
         avatar:
             enabled: true
             local: true
-            src: img/head.jpg
+            src: img/head.png
 
     article:
         math: false
