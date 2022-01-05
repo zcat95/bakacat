@@ -8,5 +8,5 @@ tags:
     - ArrowOS
     - Android
 ---
-
-nothing here
+recovery fix
+TARGET_OTA_ASSERT_DEVICE := haydn,haydnin
