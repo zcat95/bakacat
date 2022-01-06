@@ -11,7 +11,7 @@ tags:
 
 **recovery fix**
 
-修改BoardConfig.mk
+修改 BoardConfig.mk
 ```
 TARGET_OTA_ASSERT_DEVICE := haydn,haydnin
 ```
@@ -29,7 +29,7 @@ android_vendor_qcom_opensource_bluetooth_ext
 android_vendor_qcom_opensource_packages_apps_Bluetooth
 ```
 
-**AOD自适应亮度**
+**AOD 自适应亮度**
 
 引入 Pixel Experience 的设备设置
 ```
