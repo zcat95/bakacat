@@ -10,4 +10,6 @@ tags:
 ---
 
 use this to fix 
+```
 rm -r /tmp/luci-indexcache
+```
