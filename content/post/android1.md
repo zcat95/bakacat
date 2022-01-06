@@ -51,3 +51,15 @@ device/
      sepolicy/
      sepolicy_vndr/
 ```
+sepolicy_vndr 里面的 sepolicy.mk 最后一行的 xxxx 处修改为当前项目名称
+```
+-include device/xxxx/sepolicy/qcom/sepolicy.mk
+```
+**Import vendor/lawnchair/lawnchair.mk**
+
+```
+$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
+```
+Remove existing launcher from the build
+
+This can be done by adding package name of such launcher in overrides for Lawnchair package definition in Android.bp
