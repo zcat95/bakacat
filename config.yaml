@@ -2,7 +2,7 @@ baseurl: https://zcat.netlify.app
 languageCode: zh-cn
 theme: stack
 paginate: 5
-title: ✨ ZCat ✨
+title: ZCat
 
 # GA Tracking ID
 googleAnalytics: G-V793L9MRTH
