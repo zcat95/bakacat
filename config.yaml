@@ -20,7 +20,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon: https://zcat.netlify.app/img/icon.png
+    favicon: https://zcat.netlify.app/img/favicon.ico
 
     footer:
         since: 2020
