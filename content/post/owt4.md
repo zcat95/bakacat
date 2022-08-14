@@ -1,6 +1,6 @@
 ---
 title: Openwrt 编译笔记
-date: 2022-08-15
+date: 2022-08-14
 slug: owt4
 categories:
     - 有用的🌌
