@@ -189,3 +189,6 @@ markup:
         startLevel: 2
     highlight:
         noClasses: false
+
+frontmatter:
+  lastmod: :fileModTime
