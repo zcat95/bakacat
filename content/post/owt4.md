@@ -53,3 +53,20 @@ rm -rf package/helloworld
 git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
 git -C package/helloworld pull
 ```
+
+**更多参考**
+
+看完这篇，自定义 OpenWrt/LEDE 路由固件不求人
+https://sspai.com/post/61463
+
+Lean OpenWrt 编译使用小记
+https://chenhe.me/post/lean-openwrt-compile/
+
+NTFS格式优盘挂载
+https://github.com/danshui-git/shuoming/blob/master/NTFS%E6%A0%BC%E5%BC%8F%E4%BC%98%E7%9B%98%E6%8C%82%E8%BD%BD
+
+openwrt编译USB以及常用软件
+https://secm.top/index.php/archives/16/
+
+软路由编译及ipv6、多播设置流程
+https://agong.me/2019/soft-router-compile-ipv6-mppddial-by-top-navigation.html
