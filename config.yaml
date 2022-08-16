@@ -24,7 +24,7 @@ params:
 
     footer:
         since: 2020
-        customText:
+        customText: 测试
 
     dateFormat:
         published: Jan 02, 2006
@@ -57,64 +57,6 @@ params:
             admin:
             adminLabel:
 
-        utterances:
-            repo:
-            issueTerm: pathname
-            label:
-
-        remark42:
-            host:
-            site:
-            locale:
-
-        vssue:
-            platform:
-            owner:
-            repo:
-            clientId:
-            clientSecret:
-            autoCreateIssue: false
-
-        # Waline client configuration see: https://waline.js.org/en/reference/client.html
-        waline:
-            serverURL:
-            lang:
-            visitor:
-            avatar:
-            emoji:
-                - https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo
-            requiredMeta:
-                - name
-                - email
-                - url
-            placeholder:
-            locale:
-                admin: Admin
-
-        twikoo:
-            envId:
-            region:
-            path:
-            lang:
-
-        giscus:
-            repo:
-            repoID:
-            category:
-            categoryID:
-            mapping:
-            lightTheme:
-            darkTheme:
-            reactionsEnabled: 1
-            emitMetadata: 0
-
-        gitalk:
-            owner: 
-            admin:  
-            repo: 
-            clientID: 
-            clientSecret: 
-
     widgets:
         enabled:
             - search
@@ -126,20 +68,6 @@ params:
 
         tagCloud:
             limit: 10
-
-    opengraph:
-        twitter:
-            # Your Twitter username
-            site: bakacatuwu
-
-            # Available values: summary, summary_large_image
-            card: summary_large_image
-
-    defaultImage: 
-        opengraph: 
-            enabled: false
-            local: true
-            src: img/i.jpg
 
     colorScheme:
         # Display toggle
@@ -190,5 +118,25 @@ markup:
     highlight:
         noClasses: false
 
+
+params:
+  # 主题色
+  theme: wheat                   # gray, light, linen, wheat
+
+  # 社交网络
+  github: zcat95                 # github.com/YOUR_GITHUB_ID
+  instagram: zcat95              # instagram.com/YOUR_INSTAGRAM_ID
+  rss: true                      # show rss icon with link
+
+  # 主页个人资料
+  avatar: img/head.jpg           # Gravatar email or image url(e.g. "https://deno.land/logo.svg")
+  name: ZCat
+  bio: 『人活着就像风铃一样要清脆。』 
+
+  # 杂项
+  disableHLJS: true              # disable requesting highlight.js
+  monoDarkIcon: true             # show monochrome dark mode icon
+
 frontmatter:
+  # 文章最后修改时间
   lastmod: :fileModTime
