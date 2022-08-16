@@ -9,11 +9,11 @@ tags:
     - Android
 ---
 
-** 令人无语的 Add cortex-a76 **
+**令人无语的 Add cortex-a76**
 
 revert 掉这条
 ```
 https://github.com/Evolution-X/build/commit/f9ceaa7ce5613c9ea2eed351089d519517547ba6
 ```
 
-** 待添加 **
+**更多待添加**
