@@ -1,6 +1,6 @@
 baseurl: https://zcat.netlify.app
 languageCode: zh-cn
-theme: stack
+theme: paper
 paginate: 5
 title: ZCat
 
