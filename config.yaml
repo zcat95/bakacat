@@ -21,7 +21,7 @@ params:
   disqusShortname: zcat
 
   # 主题色
-  theme: linen                   # gray, light, linen, wheat
+  theme: light                   # gray, light, linen, wheat
 
   # 社交网络
   github: zcat95                 # github.com/YOUR_GITHUB_ID
