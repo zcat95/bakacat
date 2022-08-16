@@ -16,54 +16,12 @@ permalinks:
     page: /:slug/
 
 params:
-    mainSections:
-        - post
-    featuredImageField: image
-    rssFullContent: true
-    favicon: https://zcat.netlify.app/img/favicon.ico
 
-    dateFormat:
-        published: Jan 02, 2006
-        lastUpdated: Jan 02, 2006 15:04 MST
+  # Disqus 评论
+  disqusShortname: zcat
 
-    comments:
-        enabled: true
-        provider: disqus
-
-        disqusjs:
-            shortname: zcat
-            apiUrl:
-            apiKey:
-            admin:
-            adminLabel:
-
-### Custom menu
-### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
-### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
-menu:
-    main:
-        - identifier: home
-          name: Home
-          url: /
-          weight: 40
-          pre: home
-          params:
-              newTab: false
-
-related:
-    includeNewer: true
-    threshold: 60
-    toLower: false
-    indices:
-        - name: tags
-          weight: 100
-
-        - name: categories
-          weight: 200
-
-params:
   # 主题色
-  theme: wheat                   # gray, light, linen, wheat
+  theme: linen                   # gray, light, linen, wheat
 
   # 社交网络
   github: zcat95                 # github.com/YOUR_GITHUB_ID
@@ -78,7 +36,3 @@ params:
   # 杂项
   disableHLJS: true              # disable requesting highlight.js
   monoDarkIcon: false             # show monochrome dark mode icon
-
-frontmatter:
-  # 文章最后修改时间
-  lastmod: :fileModTime
