@@ -17,6 +17,9 @@ permalinks:
 
 params:
 
+  # 开启评论
+  comments: true
+
   # Disqus 评论
   disqusShortname: zcat
 
