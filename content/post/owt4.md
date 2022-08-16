@@ -7,23 +7,30 @@ categories:
 tags:
     - openwrt
     - 编译
+    - 软路由
 ---
 
-**修改默认 IP**
+### **修改默认 IP**
 
 package/base-files/files/bin/config_generate 路径下，搜索关键字 IP 修改后保存即可。
 
-**启用 Samba4 / 关闭 Samba3.6**
+------
+
+### **启用 Samba4 / 关闭 Samba3.6**
 
 Extra packages 取消勾选 autosamba，相关选项就会自动取消。
 Luci - App - 启用 luci-app-samba4 ，相关选项会自动启用。
 Network - samba4-util 需要启用。
 
-**启用 IPV6**
+------
+
+### **启用 IPV6**
 
 Extra packages - ipv6helper 启用即可。
 
-**启用 NTFS 支持**
+------
+
+### **启用 NTFS 支持**
 
 不要选择 kmod-fs-ntfs ，这个只是提供 NTFS 只读支持。
 ```
@@ -44,7 +51,9 @@ Kernel modules —> Filesystems —>  <*> kmod-fs-vfat
 Kernel modules —> Filesystems —>  <*> kmod-fuse  
 ```
 
-**SSRP**
+------
+
+### **SSRP**
 
 源码地址 https://github.com/fw876/helloworld
 
@@ -54,7 +63,9 @@ git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
 git -C package/helloworld pull
 ```
 
-**更多参考**
+------
+
+### **更多参考**
 
 看完这篇，自定义 OpenWrt/LEDE 路由固件不求人
 https://sspai.com/post/61463
