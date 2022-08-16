@@ -192,3 +192,5 @@ markup:
 
 frontmatter:
   lastmod: :fileModTime
+
+disqusShortname: Shortname
