@@ -194,3 +194,4 @@ frontmatter:
   lastmod: :fileModTime
 
 disqusShortname: zcat
+comments: true
