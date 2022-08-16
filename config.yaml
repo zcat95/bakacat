@@ -129,13 +129,13 @@ params:
   rss: true                      # show rss icon with link
 
   # 主页个人资料
-  avatar: https://i1.hdslb.com/bfs/face/bd7aad000937a1aa40be1fa5f59267d567c8ebbc.jpg           # Gravatar email or image url(e.g. "https://deno.land/logo.svg")
+  avatar: saberzc@qq.com           # Gravatar email or image url(e.g. "https://deno.land/logo.svg")
   name: ZCat
   bio: 『人活着就像风铃一样要清脆。』 
 
   # 杂项
   disableHLJS: true              # disable requesting highlight.js
-  monoDarkIcon: true             # show monochrome dark mode icon
+  monoDarkIcon: false             # show monochrome dark mode icon
 
 frontmatter:
   # 文章最后修改时间
