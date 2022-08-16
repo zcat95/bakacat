@@ -139,7 +139,7 @@ params:
         opengraph: 
             enabled: true
             local: true
-            src: img/1.jpg
+            src: https://picsum.photos/800/600.webp?random={{ substr (md5 (.Date)) 4 8 }}
 
     colorScheme:
         # Display toggle
