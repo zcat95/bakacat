@@ -47,11 +47,11 @@ params:
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: false
+        enabled: true
         provider: disqus
 
         disqusjs:
-            shortname:
+            shortname: zcat
             apiUrl:
             apiKey:
             admin:
@@ -139,7 +139,7 @@ params:
         opengraph: 
             enabled: true
             local: true
-            src: https://picsum.photos/800/600.webp?random={{ substr (md5 (.Date)) 4 8 }}
+            src: https://zcat.netlify.app/img/1.jpg
 
     colorScheme:
         # Display toggle
@@ -192,6 +192,3 @@ markup:
 
 frontmatter:
   lastmod: :fileModTime
-
-disqusShortname: zcat
-comments: true
